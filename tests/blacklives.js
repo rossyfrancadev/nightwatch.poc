@@ -25,8 +25,7 @@ describe('Go to Black lives matter site',function(){
     before(async () => homepage.navigate());
 
     it("test", ()=>{
-        console.log("foi")
-       // console.log(homepage.url);
+      homepage.type("input#input_29_2_3", "Rossywan")
     })
 
 })

@@ -1,10 +1,9 @@
-const searchCommands = {
-    submit() {
-      this.waitForElementVisible('@submitButton', 1000)
-        .click('@submitButton');
+const typeCommands = {
+    type(element, value) {
+      this.waitForElementVisible(element, 1000)
+        .sendKeys(element,value);
       
       this.pause(1000);
   
-      return this; // for command-chaining
     }
   };
