@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="0"
+            failures="1"
             tests="1">
 
   <testsuite name="blacklives"
-    errors="0" failures="0" hostname="" id="" package="blacklives" skipped="0"
-    tests="1" time="1.113" timestamp="">
+    errors="0" failures="1" hostname="" id="" package="blacklives" skipped="0"
+    tests="1" time="0.07400" timestamp="">
   
-    <testcase name="test" classname="blacklives" time="1.113" assertions="1">
+    <testcase name="test" classname="blacklives" time="0.07400" assertions="1">  <failure message="homepage.forms.fillforms is not a function">TypeError: homepage.forms.fillforms is not a function
+    at DescribeInstance.&lt;anonymous&gt; (C:\Workspace\QAtests\nightwatch.poc\tests\blacklives.js:32:21)</failure>
 
     
     </testcase>

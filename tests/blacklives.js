@@ -21,11 +21,15 @@
 
 describe('Go to Black lives matter site',function(){
 
+    var forms = "input[id*='input']";
+    var values = ["Rossywan", "França", "rossyfranca@gmail.com","20766720"]
     const homepage = browser.page.homepage();
     before(async () => homepage.navigate());
 
     it("test", ()=>{
       homepage.type("input#input_29_2_3", "Rossywan")
+      homepage.customcommands("input#input_29_2_6", "França")
+      .pause(1*3000)
     })
 
 })
